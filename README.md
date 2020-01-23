@@ -28,7 +28,7 @@ BONUS:
 
 Designing RESTFUL WEBSERVICE :
 
-First, a REST resource to GET a list of Animals: http://localhost:8080/animals
+First, a REST resource to GET a list of Animals: http://www.animal.com/animals
 
 One more REST resource to GET details of Animal with name (Example:Rooster) http://www.animal.com/animals/rooster
 
