@@ -1,15 +1,15 @@
 package com.singtel.app;
 
-import com.singtel.app.fish.Clownfish;
-import com.singtel.app.util.Color;
-import com.singtel.app.util.Size;
+import static org.hamcrest.CoreMatchers.containsString;
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.hamcrest.CoreMatchers.containsString;
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.junit.Assert.assertEquals;
+import com.singtel.app.model.fish.Clownfish;
+import com.singtel.app.util.Color;
+import com.singtel.app.util.Size;
 
 /**
  * @author munikumarchallagulla

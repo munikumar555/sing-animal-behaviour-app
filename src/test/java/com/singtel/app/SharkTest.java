@@ -1,6 +1,6 @@
 package com.singtel.app;
 
-import com.singtel.app.fish.Shark;
+import com.singtel.app.model.fish.Shark;
 import com.singtel.app.util.Color;
 import com.singtel.app.util.Size;
 

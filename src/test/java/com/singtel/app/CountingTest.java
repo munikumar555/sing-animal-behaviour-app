@@ -1,8 +1,13 @@
 package com.singtel.app;
 
-import com.singtel.app.fish.Clownfish;
-import com.singtel.app.fish.Dolphin;
-import com.singtel.app.fish.Shark;
+import static org.junit.Assert.assertEquals;
+
+import java.util.Arrays;
+import java.util.List;
+
+import org.junit.Before;
+import org.junit.Test;
+
 import com.singtel.app.model.Bird;
 import com.singtel.app.model.Fish;
 import com.singtel.app.model.LivingThing;
@@ -14,15 +19,10 @@ import com.singtel.app.model.bird.Chicken;
 import com.singtel.app.model.bird.Duck;
 import com.singtel.app.model.bird.Parrot;
 import com.singtel.app.model.bird.Rooster;
+import com.singtel.app.model.fish.Clownfish;
+import com.singtel.app.model.fish.Dolphin;
+import com.singtel.app.model.fish.Shark;
 import com.singtel.app.util.CountAnimals;
-
-import org.junit.Before;
-import org.junit.Test;
-
-import java.util.Arrays;
-import java.util.List;
-
-import static org.junit.Assert.assertEquals;
 
 /**
  * @author munikumarchallagulla

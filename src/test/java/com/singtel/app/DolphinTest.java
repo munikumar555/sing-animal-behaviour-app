@@ -3,7 +3,7 @@ package com.singtel.app;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.singtel.app.fish.Dolphin;
+import com.singtel.app.model.fish.Dolphin;
 
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.MatcherAssert.assertThat;

@@ -1,16 +1,16 @@
 package com.singtel.app;
 
+import static org.hamcrest.CoreMatchers.containsString;
+import static org.hamcrest.MatcherAssert.assertThat;
+
+import org.junit.Before;
+import org.junit.Test;
+
 import com.singtel.app.behaviour.sing.CatSound;
 import com.singtel.app.behaviour.sing.DogSound;
 import com.singtel.app.behaviour.sing.DuckSound;
 import com.singtel.app.behaviour.sing.RoosterSound;
 import com.singtel.app.model.bird.Parrot;
-
-import org.junit.Before;
-import org.junit.Test;
-
-import static org.hamcrest.CoreMatchers.containsString;
-import static org.hamcrest.MatcherAssert.assertThat;
 
 /**
  * @author munikumarchallagulla

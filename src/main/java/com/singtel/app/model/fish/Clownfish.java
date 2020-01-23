@@ -1,4 +1,5 @@
-package com.singtel.app.fish;
+package com.singtel.app.model.fish;
+
 
 import com.singtel.app.model.Fish;
 import com.singtel.app.util.Color;
