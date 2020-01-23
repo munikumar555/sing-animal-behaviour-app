@@ -35,5 +35,3 @@ One more REST resource to GET details of Animal with name (Example:Rooster) http
 Json Response:
 
 { "animal": { "type": "bird", "name": "rooster", "swim": "I cannot swim", "walk": "I am walking", "sing": "Cluck, cluck", "fly": "I cannot fly" } }
-
-Class Diagram:
